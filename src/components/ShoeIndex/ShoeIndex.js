@@ -44,22 +44,24 @@ const Wrapper = styled.div`
   display: flex;
   flex-direction: row-reverse;
   justify-content: flex-end;
-  gap: 64px;
+  align-items: baseline;
+  gap: 32px;
 `;
 
 const LeftColumn = styled.div`
-  flex-grow: 1;
+  flex-basis: 248px;
 `;
 
 const MainColumn = styled.div`
   display: flex;
   flex-direction: column;
-  flex-grow: 2;
+  flex: 1;
 `;
 
 const Header = styled.header`
   display: flex;
   justify-content: space-between;
+  align-items: baseline;
 `;
 
 const Title = styled.h2`
